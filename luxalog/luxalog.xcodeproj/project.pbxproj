@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3290C576F092CDE26932C84D /* Pods_luxalogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA96934C4B32FEA26A6B289 /* Pods_luxalogTests.framework */; };
 		9B9D66551E4512DF0080DF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D66541E4512DF0080DF6B /* AppDelegate.swift */; };
 		9B9D66571E4512DF0080DF6B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D66561E4512DF0080DF6B /* FirstViewController.swift */; };
 		9B9D66591E4512DF0080DF6B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D66581E4512DF0080DF6B /* SecondViewController.swift */; };
@@ -15,6 +16,9 @@
 		9B9D66611E4512DF0080DF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D665F1E4512DF0080DF6B /* LaunchScreen.storyboard */; };
 		9B9D666C1E4512DF0080DF6B /* luxalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D666B1E4512DF0080DF6B /* luxalogTests.swift */; };
 		9B9D66771E4512DF0080DF6B /* luxalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D66761E4512DF0080DF6B /* luxalogUITests.swift */; };
+		9B9D66851E4516000080DF6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B9D66841E4516000080DF6B /* GoogleService-Info.plist */; };
+		A958500F3C4FF92D2BA88FA3 /* Pods_luxalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3012CB28A45B45E30F969FF /* Pods_luxalog.framework */; };
+		D0E6679263D3F24E54FA4390 /* Pods_luxalogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455AEEF860DBB073D4AA2024 /* Pods_luxalogUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DAFEECB13355654537B173A /* Pods-luxalogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luxalogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luxalogUITests/Pods-luxalogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		455AEEF860DBB073D4AA2024 /* Pods_luxalogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luxalogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D640C2A3EB119D69599ED6E /* Pods-luxalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luxalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luxalog/Pods-luxalog.debug.xcconfig"; sourceTree = "<group>"; };
 		9B9D66511E4512DF0080DF6B /* luxalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luxalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9D66541E4512DF0080DF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9D66561E4512DF0080DF6B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		9B9D66721E4512DF0080DF6B /* luxalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luxalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9D66761E4512DF0080DF6B /* luxalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luxalogUITests.swift; sourceTree = "<group>"; };
 		9B9D66781E4512DF0080DF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9D66841E4516000080DF6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEA96934C4B32FEA26A6B289 /* Pods_luxalogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luxalogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9E1BBEB9FEF11453FACB30 /* Pods-luxalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luxalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-luxalog/Pods-luxalog.release.xcconfig"; sourceTree = "<group>"; };
+		D6244149EADE5C7AE86567DD /* Pods-luxalogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luxalogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-luxalogTests/Pods-luxalogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E1F4059A50E9B40EE8FEC2 /* Pods-luxalogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luxalogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-luxalogTests/Pods-luxalogTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3012CB28A45B45E30F969FF /* Pods_luxalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luxalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BDD82E01773877EB4AD0B1 /* Pods-luxalogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luxalogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-luxalogUITests/Pods-luxalogUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A958500F3C4FF92D2BA88FA3 /* Pods_luxalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3290C576F092CDE26932C84D /* Pods_luxalogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E6679263D3F24E54FA4390 /* Pods_luxalogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EB40461C86A2E238001C669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3012CB28A45B45E30F969FF /* Pods_luxalog.framework */,
+				CEA96934C4B32FEA26A6B289 /* Pods_luxalogTests.framework */,
+				455AEEF860DBB073D4AA2024 /* Pods_luxalogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B9D66481E4512DF0080DF6B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				9B9D666A1E4512DF0080DF6B /* luxalogTests */,
 				9B9D66751E4512DF0080DF6B /* luxalogUITests */,
 				9B9D66521E4512DF0080DF6B /* Products */,
+				FD77F38D18EFF3783B8021C6 /* Pods */,
+				8EB40461C86A2E238001C669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		9B9D66531E4512DF0080DF6B /* luxalog */ = {
 			isa = PBXGroup;
 			children = (
+				9B9D66841E4516000080DF6B /* GoogleService-Info.plist */,
 				9B9D66541E4512DF0080DF6B /* AppDelegate.swift */,
 				9B9D66561E4512DF0080DF6B /* FirstViewController.swift */,
 				9B9D66581E4512DF0080DF6B /* SecondViewController.swift */,
@@ -128,6 +158,19 @@
 			path = luxalogUITests;
 			sourceTree = "<group>";
 		};
+		FD77F38D18EFF3783B8021C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D640C2A3EB119D69599ED6E /* Pods-luxalog.debug.xcconfig */,
+				D6244149EADE5C7AE86567DD /* Pods-luxalogTests.debug.xcconfig */,
+				E0E1F4059A50E9B40EE8FEC2 /* Pods-luxalogTests.release.xcconfig */,
+				0DAFEECB13355654537B173A /* Pods-luxalogUITests.debug.xcconfig */,
+				F9BDD82E01773877EB4AD0B1 /* Pods-luxalogUITests.release.xcconfig */,
+				CF9E1BBEB9FEF11453FACB30 /* Pods-luxalog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B9D667B1E4512DF0080DF6B /* Build configuration list for PBXNativeTarget "luxalog" */;
 			buildPhases = (
+				E36E87F561E0D15944784CDD /* [CP] Check Pods Manifest.lock */,
 				9B9D664D1E4512DF0080DF6B /* Sources */,
 				9B9D664E1E4512DF0080DF6B /* Frameworks */,
 				9B9D664F1E4512DF0080DF6B /* Resources */,
+				15801EB50F2BC7F3CD524536 /* [CP] Embed Pods Frameworks */,
+				585176A5A654F1537D748F9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B9D667E1E4512DF0080DF6B /* Build configuration list for PBXNativeTarget "luxalogTests" */;
 			buildPhases = (
+				A63B9C76FF0FD444DCA837FA /* [CP] Check Pods Manifest.lock */,
 				9B9D66631E4512DF0080DF6B /* Sources */,
 				9B9D66641E4512DF0080DF6B /* Frameworks */,
 				9B9D66651E4512DF0080DF6B /* Resources */,
+				14E2EC6026A4327B5A404C79 /* [CP] Embed Pods Frameworks */,
+				5A69D9321DF5582F00C2FC93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B9D66811E4512DF0080DF6B /* Build configuration list for PBXNativeTarget "luxalogUITests" */;
 			buildPhases = (
+				6AC33533618BC5F50F667CB5 /* [CP] Check Pods Manifest.lock */,
 				9B9D666E1E4512DF0080DF6B /* Sources */,
 				9B9D666F1E4512DF0080DF6B /* Frameworks */,
 				9B9D66701E4512DF0080DF6B /* Resources */,
+				FC2601940CC6BE7B616211D7 /* [CP] Embed Pods Frameworks */,
+				5830CFEA4F87551F77EBD313 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +248,7 @@
 				TargetAttributes = {
 					9B9D66501E4512DF0080DF6B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57329QY4NR;
 						ProvisioningStyle = Automatic;
 					};
 					9B9D66661E4512DF0080DF6B = {
@@ -236,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9D66611E4512DF0080DF6B /* LaunchScreen.storyboard in Resources */,
+				9B9D66851E4516000080DF6B /* GoogleService-Info.plist in Resources */,
 				9B9D665E1E4512DF0080DF6B /* Assets.xcassets in Resources */,
 				9B9D665C1E4512DF0080DF6B /* Main.storyboard in Resources */,
 			);
@@ -256,6 +310,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E2EC6026A4327B5A404C79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luxalogTests/Pods-luxalogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15801EB50F2BC7F3CD524536 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luxalog/Pods-luxalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5830CFEA4F87551F77EBD313 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luxalogUITests/Pods-luxalogUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585176A5A654F1537D748F9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luxalog/Pods-luxalog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A69D9321DF5582F00C2FC93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luxalogTests/Pods-luxalogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC33533618BC5F50F667CB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A63B9C76FF0FD444DCA837FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E36E87F561E0D15944784CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2601940CC6BE7B616211D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-luxalogUITests/Pods-luxalogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B9D664D1E4512DF0080DF6B /* Sources */ = {
@@ -412,8 +604,10 @@
 		};
 		9B9D667C1E4512DF0080DF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D640C2A3EB119D69599ED6E /* Pods-luxalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57329QY4NR;
 				INFOPLIST_FILE = luxalog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanjin.luxalog;
@@ -424,8 +618,10 @@
 		};
 		9B9D667D1E4512DF0080DF6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9E1BBEB9FEF11453FACB30 /* Pods-luxalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57329QY4NR;
 				INFOPLIST_FILE = luxalog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanjin.luxalog;
@@ -436,6 +632,7 @@
 		};
 		9B9D667F1E4512DF0080DF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6244149EADE5C7AE86567DD /* Pods-luxalogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +647,7 @@
 		};
 		9B9D66801E4512DF0080DF6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E1F4059A50E9B40EE8FEC2 /* Pods-luxalogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +662,7 @@
 		};
 		9B9D66821E4512DF0080DF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAFEECB13355654537B173A /* Pods-luxalogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = luxalogUITests/Info.plist;
@@ -477,6 +676,7 @@
 		};
 		9B9D66831E4512DF0080DF6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BDD82E01773877EB4AD0B1 /* Pods-luxalogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = luxalogUITests/Info.plist;
@@ -507,6 +707,7 @@
 				9B9D667D1E4512DF0080DF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B9D667E1E4512DF0080DF6B /* Build configuration list for PBXNativeTarget "luxalogTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +716,7 @@
 				9B9D66801E4512DF0080DF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B9D66811E4512DF0080DF6B /* Build configuration list for PBXNativeTarget "luxalogUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +725,7 @@
 				9B9D66831E4512DF0080DF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

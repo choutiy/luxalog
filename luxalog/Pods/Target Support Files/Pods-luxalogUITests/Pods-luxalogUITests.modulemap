@@ -1,0 +1,6 @@
+framework module Pods_luxalogUITests {
+  umbrella header "Pods-luxalogUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
